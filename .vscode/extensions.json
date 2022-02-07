@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "rvest.vs-code-prettier-eslint",
+    "esbenp.prettier-vscode",
+    "coenraads.bracket-pair-colorizer-2",
+    "miclo.sort-typescript-imports",
+    "sullenor.vscode-transform-case",
+    "rebornix.project-snippets"
+  ]
+}

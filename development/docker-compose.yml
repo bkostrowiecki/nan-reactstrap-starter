@@ -1,0 +1,15 @@
+version: 3.7
+
+services:
+  maildev:
+    image: maildev/maildev
+    ports:
+      - "1080:80"
+  postgres:
+    image: postgres:10.5
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - '5432:5432'
